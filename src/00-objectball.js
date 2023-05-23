@@ -1,9 +1,40 @@
 function gameObject() {
-    const home = {
-        teamName: "team name",
-        colors: ["color", "color"],
+   const gameObject ={ 
+     home: {
+        teamName: "Brooklyn Nets",
+        colors: ["Black", "White"],
         players: {
-            "name 1": {
+            "Alan Anderson": {
+                "number": "0",
+                "shoe": "16",
+                "points": "22",
+                "rebounds": "12",
+                "assists": "12",
+                "steals": "3",
+                "blocks": "1",
+                "slamDunks": "1",
+                },
+            "Reggie Evans": {
+                "number": "30",
+                "shoe": "14",
+                "points": "12",
+                "rebounds": "12",
+                "assists": "12",
+                "steals": "12",
+                "blocks": "12",
+                "slamDunks": "7",
+                },
+            "Brook Lopez": {
+                "number": "11",
+                "shoe": "17",
+                "points": "1",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "Mason Plumlee": {
                 "number": "value",
                 "shoe": "value",
                 "points": "value",
@@ -13,37 +44,7 @@ function gameObject() {
                 "blocks": "value",
                 "slamDunks": "value",
                 },
-            "name 2": {
-                "number": "value",
-                "shoe": "value",
-                "points": "value",
-                "rebounds": "value",
-                "assists": "value",
-                "steals": "value",
-                "blocks": "value",
-                "slamDunks": "value",
-                },
-            "name 3": {
-                "number": "value",
-                "shoe": "value",
-                "points": "value",
-                "rebounds": "value",
-                "assists": "value",
-                "steals": "value",
-                "blocks": "value",
-                "slamDunks": "value",
-                },
-            "name 4": {
-                "number": "value",
-                "shoe": "value",
-                "points": "value",
-                "rebounds": "value",
-                "assists": "value",
-                "steals": "value",
-                "blocks": "value",
-                "slamDunks": "value",
-                },
-            "name 5": {
+            "Jason Terry": {
                 "number": "value",
                 "shoe": "value",
                 "points": "value",
@@ -54,8 +55,8 @@ function gameObject() {
                 "slamDunks": "value",
                 },
             }, 
-    }
-    const away = {
+    },
+     away: {
         teamName: "team name",
         colors: ["color", "color"],
         players: {
@@ -111,5 +112,7 @@ function gameObject() {
                 },
             },
         }
-    } 
-    console.log(gameObject())
+    }
+    return gameObject 
+}
+console.log(gameObject())
