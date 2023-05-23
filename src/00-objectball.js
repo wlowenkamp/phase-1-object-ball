@@ -1,6 +1,115 @@
 function gameObject() {
-    const home = {teamName: "", colors: "" , players: "" }
-    const away = {teamName: "", colors: "" , players: "" } 
-        
-}
-console.log(gameObject);
+    const home = {
+        teamName: "team name",
+        colors: ["color", "color"],
+        players: {
+            "name 1": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 2": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 3": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 4": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 5": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            }, 
+    }
+    const away = {
+        teamName: "team name",
+        colors: ["color", "color"],
+        players: {
+            "name 1": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 2": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 3": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 4": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            "name 5": {
+                "number": "value",
+                "shoe": "value",
+                "points": "value",
+                "rebounds": "value",
+                "assists": "value",
+                "steals": "value",
+                "blocks": "value",
+                "slamDunks": "value",
+                },
+            },
+        }
+    } 
+    console.log(gameObject())
